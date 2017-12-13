@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#Blondiecode: Новогодняя гирлянда на сайте</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div id="lights"></div>
+<header>
+    <h1>С Новым Годом!</h1>
+</header>
+<main class="wrapper col">
+    <div class="masonry">
+        <div class="item">
+            <img src="https://dummyimage.com/150x120/b38cc9/fff.jpg&text=котэ">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/300x200/011936/fff.jpg&text=котейка">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/70x120/465362/fff.jpg&text=кот">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/80x100/82A3A1/fff.jpg&text=ня">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/900x200/C0DFA1/fff.jpg&text=длиннокот">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/150x160/b38cc9/fff.jpg&text=кошка">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/600x480/465362/fff.jpg&text=колбаска">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/180x200/b38cc9/fff.jpg&text=кот">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/240x240/C0DFA1/fff.jpg&text=котан">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/100x120/9FC490/fff.jpg&text=котэ">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/700x300/82A3A1/fff.jpg&text=сосисоны">
+        </div>
+        <div class="item">
+            <img src="https://dummyimage.com/500x100/C0DFA1/fff.jpg&text=пельмешка">
+        </div>
+    </div>
+</main>
+<footer><a href="https://www.youtube.com/channel/UCSsg9NLCse2XQCIRgfmJu3Q" target="_blank">#BlondieCode © 2017</a></footer>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/ny-bulbs.js"></script>
+<script>
+    $( document ).ready(function() {
+        $('#lights').lightsOn({
+            initCycle: 300,
+            lampWidth: 70
+        });
+    });
+</script>
+</body>
+</html>
